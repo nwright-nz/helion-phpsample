@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Simple PHP App</title>
+        <title>WWAS 2016 PHP Demo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <style>body {margin-top: 40px; background-color: #333;}</style>
@@ -15,7 +15,9 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Simple PHP App</h1>
+                <img src="assets/img/hpelogo.png" height=150 width=150 align="left"/>
+                <br><br>
+                <h1>WWAS 2016 Lab 1 - PHP</h1>
                 <h2>Congratulations!</h2>
                 <p>Your PHP application is now running on the host &ldquo;<?php echo gethostname(); ?>&rdquo; on Helion Development Platform.</p>
                 <p>This host is running PHP version <?php echo phpversion(); ?>.</p>
